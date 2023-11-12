@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="homeJAVA.js"></script>
+    <link href="editor.css" rel="stylesheet" type="text/css">
+    <title>Meet Me! John Doligale 5th</title>
+</head>
+<body> <!-- Just an introduction of my project -->
+    <div class="hello">
+    <h1 id="top" align="center">
+    Hello, My name is John Doligale <i>5<sup>th</sup></i>!
+    </h1>
+    </div>
+    
+    <button align="left" id="darkMode" onclick="inverseButton()">Dark Mode</button>
+
+    <!--showing the underline tag-->
+    <p id="beginning" align="center"> This is the beginning of me learning how to program in <u>HTML(5)</u>, 
+        and its a pleasure to show you what I have learned!</p>
+    
+    
+
+    <h2>
+    <hr />
+    <div>
+    An Overview
+    </h2>
+    <!--Images of myself and my place of study -->
+    <img src="images/Headshot.jpg" alt="Myself in Chicago!" width="185" height="225" />
+    <img src="images/usm.jpg" alt="University of Southern Mississippi" width="700" height="225"/>
+    <p> 
+        <!--The bold tag and break line tag are used here-->
+       I am an undergraduate student at the <b>University of Southern Mississippi</b> currently pursuing my bachelor's in Computer Science! <br> While 
+       I am <em>originally</em> born/from Illinois, I have family from southern Mississippi that have won me over into moving down here <br> for school.
+       As a senior, I have been through an abundance of courses that have tought me a lot of basis knowledge on various<br> subjects. Here is a list
+       of classes I have been through/are going through that I would consider impactful for my computer science <br> career. </br>
+       <ul class="classes"> <!--This is my unordered list of classes that I found important-->
+            <li>Intro to Computer Organization Systems (CSC 206)</li>
+            <li>Foundations of Computer Science (CSC 300)</li>
+            <li>Operating Systems, Linux (CSC 306)</li>
+            <li>Data Structures (CSC 307)</li>
+            <li>Object Orientated Programming, C# (CSC 317)</li>
+            <li>Software Engineering I & II (CSC 414/424) </li>
+            <li>Client Web (CSC 440)</li>
+        </ul>
+    </p>
+    </div>
+    <div>
+    <p>
+        <!--A link that opens to a new tab-->
+        <li> <a href="https://catalog.usm.edu/preview_program.php?catoid=34&poid=17003" target="_blank">Computer Science BS Degree Requirements</a> </li>
+        <!--This simple table that shows the classes I have completed and the ones I am currently taking, which also has a changed background and border color-->
+        <div class="class_table">
+        <table >
+            <caption>The following table below is a list of all the college level courses I have completed and am currently taking:</caption>
+            <div>
+            <tr class="completed">
+                <!--When I get more comfortable with using the table tags, I will organize this better with more info-->
+                <th scope="row">Completed</th>
+                <td>ART 130</td> <td>CE 260</td> <td>CMS 111</td> <td>CSC 101/101L</td> <td>CSC 102</td>
+                <td>CSC 206</td> <td>CSC 300</td> <td>CSC 306</td> <td>CSC 307</td> <td>CSC 309</td>
+                <td>CSC 317</td> <td>CSC 327</td> <td>CSC 408</td> <td>CSC 410</td> <td>CSC 411</td> 
+                <td>CSC 413</td> <td>CSC 424</td> <td>CSS 346</td> <td>CSS 415</td> <td>ENG 101/102</td>
+                <td>ENG 203</td> <td>GHY 104/104L</td> <td>GHY 105/105L</td> <td>HHS 100</td> <td>HIS 101</td>
+                <td>MAR 151/151L</td>
+            </tr> 
+            <tr class="completed"> 
+                <th class="emptyBorder"> </th>
+                <td>MAT 167</td> <td>MAT 168</td> <td>MAT 169</td> <td>PHI 171</td> <td>PSY 110</td>
+            </tr>
+            </div>
+            <tr class="inProgress">
+                <th scope="row">In Progress</th>
+                <td>CSC 414</td> <td>CSC 440</td> <td>CSC 444</td> <td>CSC 492</td> <td>GLY 101/101L</td> <td>CSC 425</td> <td>CSC 492</td>
+            </tr>
+        </table>
+        </div>
+    </p>
+    </div>
+
+    <!--Link to my GitHub Page-->
+    <h3> <a href="https://github.com/doligale05" target="blank"> My 5 Favorite Projects! </a></h3>
+
+    <!--Calling the functions from homeJava.js which covers the requirements for the list-->
+        <ul class="myList">
+            <div id="javaList">
+                <li id="csc440"> <i>Personal Website (CSC 440)</i> </li>
+                <li> Tour Company Database (CSC 411) </li>
+                <li >Time To Task [C#] (CSC 317) </li>
+                <li>Robotics Application (CSC 444) </li>
+                <li>Unity Drone (CSC 424) </li>
+            </div>
+        </ul>
+
+    <hr />
+
+    <div class="video1">
+    <p>     
+    <video width="600px" height="325px" controls="controls">
+        <source src="videos/rundown_mp4.mp4" type="video/mp4" />
+        <source src="videos/rundown_h264.H264" type="video/264" />
+        <source src="videos/rundown_webm.webm" type="video/webm" />
+   </video>
+    </p>
+   </div>
+
+   <div class="formBorder">
+   <div id="review"></div>
+    <div class="review-section">
+    
+
+    <h3>Want to Leave me a Review?</h3>
+    <!--Using fieldset to establish a border for visitors to leave a text review and give a rating using a select option-->
+        <legend> <b>Your Info</b> </legend>
+        <p>
+            <form action="#" method="get" onsubmit="submitForm(event)">
+                <label> <b>First & Last Name:</b> <br /> <input type="text" name="fullname"> </label> <br />
+                <label> <b>E-mail:</b> <br /> <input type="text" name="email"> </label> <br /> <br /> 
+        
+                <b>Give this page a rating!</b> 
+                <select name="Rating 1-10">
+                    <option value="1" selected="selected">1</option>
+                    <option value="2" selected="selected">2</option>
+                    <option value="3" selected="selected">3</option>
+                    <option value="4" selected="selected">4</option>
+                    <option value="5" selected="selected">5</option>
+                    <option value="6" selected="selected">6</option>
+                    <option value="7" selected="selected">7</option>
+                    <option value="8" selected="selected">8</option>
+                    <option value="9" selected="selected">9</option>
+                    <option value="10" selected="selected">10</option>
+                    <option value="Choose" selected="selected">Choose</option>
+                </select>
+                <br /> <br /> <b>Comments? Let me know!</b> <br />
+                <!--The visitors will be able to leave a comment in the text area that will be submitted-->
+                
+                <textarea name="comments" cols="40" rows="5"> </textarea>
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Submit" id="submit">
+            </form>
+        </p>
+       
+      </div>
+   </div>
+    <div class="video2">
+        <video width="600px" height="325px" controls="controls">
+            
+       </video>        
+    </div>
+
+    
+    <h3> Other Links</h3>
+    <p> 
+        <ul>
+            <!--This link goes to my other html page without opening a new tab-->
+            <li><a href="interest.html">Interest and Hobbies</a></li>
+            <!--This link opens a new tab to my LinkedIn profile-->
+            <li><a href="https://www.linkedin.com/in/john-doligale-5th-5ab4b7256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BM7sEBC9OTfq7m6yG3HviaA%3D%3D" target="_blank">
+                LinkedIn Profile</a></li>
+                <!--This is a link to a map of the school, and below that is the map embedded onto the page using iframe-->
+            <li> <a href="https://goo.gl/maps/TafePQ26RceRy2VT9" target="_blank">Place of Study</a></li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54530.99219485722!2d-89.3353984!3d31.326208000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889cde97de155cd7%3A0xbb4867d179a31f12!2sThe%20University%20of%20Southern%20Mississippi!5e0!3m2!1sen!2sus!4v1693931867394!5m2!1sen!2sus" 
+             width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" scrolling="0"></iframe>
+             <!--Link that take you back to the top of the page-->
+            <li> <a href="#beginning">Top of Page </a></li>    
+        </ul>
+
+    </p>
+
+
+    <div>
+    <hr />
+    <address>
+     <h3>Contact Me</h3>
+     <!--Links of my emails that users can reply or send me messages with-->
+    <p> <a href="mailto:john.doligale@usm.edu">john.doligale@usm.edu </a> </p>
+    <p> <a href="mailto:doligale05@gmail.com">doligale05@gmail.com </a> </p>
+    <p>Cell: 708-275-0352</p>
+    </address>
+    <hr />
+    </div>
+
+    <div>
+    <!--Website Information-->
+    <head>
+        <meta name="description" content="Project 1 for Client Web"/>
+        <meta name="robots" content="nofollow" />
+        <meta http-equiv="Author" content="John Doligale 5th" />
+        <meta http-equiv="pragma" content="no-cache" />
+    </head>
+    </div>
+    
+</body>
+</html>

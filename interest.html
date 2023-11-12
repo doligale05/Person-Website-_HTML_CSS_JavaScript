@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="interestJAVA.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>My Interest and Hobbies!</title>
+</head>
+<body>
+    <h2>
+        <hr />
+        Who am I? Let's find out! 
+        </h2>
+        <p class="credits">by John Doligale 5th</p>
+          <div class="p2">
+
+            <button id = "darkMode" type="submit">Dark Mode</button>
+            <p id="isDark"> </p>
+
+            <p> <img src="images/Beach.jpg" width="300" height="225" align="left" margin="10" class="beach"
+                    style="border: 5px solid #000000; padding:3px; margin:5px;"/>
+            People have told me that <q>some of my favorite things to do are not common to in the realm of computer scientist,</q> but I encourage everyone 
+            to pursue their hobbies whenever they can. For me, One of my favorite things to do is to go out to some body of water and go fishing! 
+            There is nothing more relaxing then listening to the waves of the water and being blessed with a fish on the end of the hook. When the 
+            weather doesn't permit though, I do enjoy being inside away from the south's intense humidity and playing some video games on my
+            <!--using the acronym tag in case visitors don't understand the term PS5-->
+            <acronym title="Playstation 5">PS5</acronym>. I mainly enjoy first-person shooters, action-adventures, and even racing games.
+            </p>
+                <!--Another video I recorded. I didn't bother with webm for this one cause it took to long to process-->
+                <video width="600px" height="400px" controls="controls" class="interest_vid"
+                    style="border: 5px solid #000000; padding:3px; margin:5px;">
+                    <source src="videos/interest_mp4.mp4" type="video/mp4"/>
+                    <source src="videos/interest_h264.mp4" type="video/264"/>
+                </video>
+                <img src="images/freiza.jpg" width="300" height="325" align="right bottom" margin="10" class="freiza"
+                    style="border: 5px solid #000000; padding:3px; margin:5px;"/>
+          </div>
+            <p>Here are my top 5 favorite games!</p>
+            <!--An ordered list of my favorite games with dd tag to describe the game listed-->
+            <ol class="games">
+                <li>God of War (2018/Ragnarok 2022) <dd>• Has some of the best dialogue along with storyline of any game or movie I have seen,
+                    and the combat was executed perfectly <ul><li>(10/10)</li></ul> </dd></li>
+                <li>Marvel's Spider-Man (2018) <dd>• Portrays Spider-Man very well and does a great job with the pacing of the story. 
+                    Makes you feel like a super hero! <ul><li>(9.5/10)</li></ul> </dd></li>
+                <li>Ghost of Tsushima (2020) <dd>• The open-world concept in this game is absolutely astonishing, and the characters/story 
+                    are incredably written. <ul><li>(10/10)</li></ul> </dd></li>
+                <li>Call of Duty: Black Ops 3 (2015) <dd>• The fast-paced combat along with the strategic game modes this game had to offer
+                    still live up to todays standards, and I go <br>back to it all the time. <ul><li>(8/10)</li></ul> </dd></li>
+                <li>Need For Speed: Heat (2019) <dd>• While the story or gameplay aren't exactly perfect, the design and customization options
+                    offered here a really fun to play <br>around with, and race against your friends. <ul><li>(6.5/10)</li></ul> </dd></li>
+            </ol>
+
+           <hr /> <br> 
+
+
+
+           <br> <hr />
+
+        
+        <div class="p1">
+            <p>  <img src="images/Hoist.jpg" id="william" width="300" height="225" align="right"/> 
+            However, I can't be a couch potato all the time. I do enjoy working out at the local gym and stength training, and
+            going on "adventure-walks" (as I call them). Being active helps me stay dsiciplined and focused, and like video games, it gives me a break
+            from the real world for a short period of time. And of course I do anjoy working on programming projects here and there when an idea comes
+            to mind. Programming really challenges my brain to think creatively and concentrate on a goal. 
+            Which is the main reason I chose this major! Some other basic things about me is that I really enjoy super hero movies like Marvel, DC, etc. 
+            However, my favorite movie of all time is actually Happy Gilmore! It was one of the first movies I watched growing up, and I just think it never
+            loses its touch of humor. If you've never heard of it or seen it the link will be down below to check it out and I highly reccomend it for a good laugh. 
+            Something else that I have been watching ever since I was a kid, anime! Waking up early in the morning before I got on the weary school bus, 
+            I would put on cartoon network (way too loud) and watch Dragon Ball Z at 6:30am while eatingv my bowl of Raisin Bran. I would sing along to the 
+            awesome intro, and be totally drastracted. Sometimes so badly that I missed the bus over it! From there, I started watching other popular anime 
+            like: Death Note, Fairy Tail, Hunter x Hunter, Bleach, Attack on Titan, and so many more. Dragon Ball Z is still my favorite series though. 
+        </p> <br>
+        </div>
+        <hr />
+
+        <h3>More Fun Facts About Me</h3>
+
+        <script> 
+            function funFacts(num, fact)
+            {
+                this.num = num; 
+                this.fact = fact; 
+            }
+
+             // Creating instances of the FunFacts object using the constructor
+            var fact1 = new funFacts(1, "I can play Guitar Hero on expert!");
+            var fact2 = new funFacts(2, "I have 5 screws in my left knee!");
+            var fact3 = new funFacts(3, "I think board games are overrated, sorry!");
+            var fact4 = new funFacts(4, "I wanted to do marine biology before I found computer science!");
+
+            // Displaying information in the browser
+            document.write("<p>" + fact1.num + ") " + fact1.fact + "</p>");
+            document.write("<p>" + fact2.num + ") " + fact2.fact + "</p>");
+            document.write("<p>" + fact3.num + ") " + fact3.fact + "</p>");
+            document.write("<p>" + fact4.num + ") " + fact4.fact + "</p>");
+
+        </script> 
+
+        <hr /> 
+        <!--Where I am calling the function from interestJava.js  -->
+        <fieldset border="Black" id="earningsOutline">
+            <h3 id = "earningsHeading"> Did your workplace scam you? Calculate your hours here!</h3>
+            <br> 
+                <div>
+                <label for="hours_weekly">Hours This Week:</label>
+                <input type="number" id="hours_weekly">
+                </div>
+
+                <div>
+                <label for="hourly">Hourly Wage:</label>
+                <input type="number" id="hourly">
+                </div>    
+
+                <button onclick="calculateAndDisplay()">Calculate</button>
+                <!--When button is pressed, function will calculate using Math.floor() -->
+
+                <div>
+                <p id="beforeTaxes"> Earnings before taxes were taken out: </p>
+                <br>
+                <p id="afterTaxes"> Earnings after MS taxes were taken out: </p>
+                </div>               
+
+        </fieldset>
+
+
+    <div class="links">
+        <h3> Other Links</h3>
+    <p> 
+        <ul>
+            <!--Similar links like the homepage, but the first one listed here will take you back to the homepage -->
+            <li><a href="homepage.html">An Overview</a></li>
+            <li><a href="https://www.linkedin.com/in/john-doligale-5th-5ab4b7256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BM7sEBC9OTfq7m6yG3HviaA%3D%3D" target="_blank">
+                LinkedIn Profile</a></li>
+            <li><a href="https://www.imdb.com/title/tt0116483/" target="_blank">Happy Gilmore - IMDB</a></li>
+            <li> <a href="#top">Top of Page </a></li>
+        </ul>
+
+    </p>
+    </div>
+
+</body>
+</html>

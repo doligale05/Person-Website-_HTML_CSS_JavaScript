@@ -1,0 +1,156 @@
+html{
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+    padding: 1%; 
+}
+body{
+    min-height: 100vh;
+    max-width: 1500px;
+    background-color: papayawhip; 
+}
+
+/*Bolding letters, capatalizing letters, spacing letters, and spacing words */
+h2{
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    word-spacing: 0.075em;
+}
+
+/*Changing the height in between lines of writing, text indenting paragraph*/
+p{
+    line-height: 1.4em; 
+    text-indent: 20px;
+}
+
+/* Transforming text to lowercase*/
+.links{
+    text-transform: lowercase;
+    color: Black
+}
+.links:visited{
+    color:black;
+}
+.links:hover{
+    color:blue; 
+}
+/*Text alighning to the right, adding dropshadow*/
+.credits{
+    text-align: left;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/*Changing first letter of credits (p)*/
+.credits::first-letter{
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.p2{
+    height: 65vh; 
+    width: 95vw; 
+    min-height: 55vh;
+    min-width: 90vh;
+    margin: 0px;
+    padding: 5px; 
+    background-color: rgba(255, 255, 255, 0.411);
+   padding: 1%;
+}
+
+/*Showing relative positioning with an image*/
+.beach{
+    position: relative;
+    top: 110px;  
+    padding: 0.5%; 
+}
+
+/* Changing bullet point style */
+.games{
+    list-style-type: upper-roman;
+    overflow: hidden;
+}
+
+/*Rounded border of video using <div>*/ 
+.interest_vid{
+
+    align-items: center;
+    border:5px solid #000000; 
+    width: 600px;  
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px; 
+    z-index: 2;
+}
+
+/*showing absolute positioning and z-index with a image*/
+.william{
+    position:absolute; 
+    z-index: 1;
+}
+
+.freiza{
+    position: absolute;
+}
+
+#earningsOutline{
+    width: 600px; 
+    border-radius: 1px;
+    -moz-border-radius: 600px; 
+    
+}
+
+.earningsHeading{
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    word-spacing: 0.075em;
+    text-decoration: underline;
+}
+
+#hours_weekly {
+    color: #fff;
+    font-size: 12pt;
+    color: Black;
+    width: 80px;
+    height: 30px;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 2px;
+    margin: 0;
+    margin-right: 2%; 
+    padding: 0;
+   }
+   #hourly {
+    color: #fff;
+    font-size: 12pt;
+    color: Black;
+    width: 80px;
+    height: 30px;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 2px;
+    margin: 0;
+    margin-right: 2%; 
+    padding: 0;
+   }
+
+   #calculateEarnings {
+    margin-left: 1.1%; 
+   }
+
+   #darkMode {
+    color: #fff;
+    font-size: 12pt;
+    color: Black;
+    width: 80px;
+    height: 40px;
+    border: Solid Black;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+  }
+
